@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="logo">45sp</dimen>
+    <dimen name="search_items_padding_top">10dp</dimen>
+    <dimen name="search_items_padding_left">5dp</dimen>
+    <dimen name="text_size">20sp</dimen>
+</resources>

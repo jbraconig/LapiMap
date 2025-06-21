@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.ui.fragments.InfoFragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false" android:orientation="horizontal"
+            android:layout_margin="10dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:orientation="vertical"
+                android:layout_marginLeft="10dp">
+                <TextView
+                    android:id="@+id/tvInfoSsid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/info_ssid"
+                    android:textSize="20sp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:ellipsize="end"
+                    android:lines="1"/>
+                <TextView
+                    android:id="@+id/tvInfoBssid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/info_bssid"
+                    android:textSize="15sp"
+                    android:textColor="@color/colorPrimary"
+                    android:ellipsize="end"
+                    android:lines="1"/>
+                <TextView
+                    android:id="@+id/tvInfoFrecuencia"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/info_frequency"
+                    android:textSize="15sp"
+                    android:textColor="@color/colorPrimary"
+                    android:ellipsize="end"
+                    android:lines="1"/>
+                <TextView
+                    android:id="@+id/tvInfoRssi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/info_rssi"
+                    android:textSize="15sp"
+                    android:textColor="@color/colorPrimary"
+                    android:ellipsize="end"
+                    android:lines="1"/>
+                <TextView
+                    android:id="@+id/tvInfoVelocidadEnlace"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/info_link_speed"
+                    android:textSize="15sp"
+                    android:textColor="@color/colorPrimary"
+                    android:ellipsize="end"
+                    android:lines="1"/>
+            </LinearLayout>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorAccent"/>
+
+    </LinearLayout>
+
+</FrameLayout>

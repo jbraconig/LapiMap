@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Lapi</string>
+    <string name="logo_string">LAPI</string>
+    <string name="bnv_info">Info</string>
+    <string name="bnv_scan">Scan</string>
+    <string name="bnv_map">Map</string>
+
+    <string name="info_ssid">SSID</string>
+    <string name="info_bssid">BSSID</string>
+    <string name="info_frequency">Frecuencia</string>
+    <string name="info_rssi">RSSI</string>
+    <string name="info_channel">Channel</string>
+    <string name="info_link_speed">Velocidad de enlace</string>
+
+    <string name="alert_wifi_title">Alerta</string>
+    <string name="alert_wifi_msg">El wifi no esta habilitado, habilitelo e intente conectarse a una red para mostrar los datos</string>
+    <string name="alert_gps_msg">La aplicación necesita el permiso de localización para poder funcionar. Habilitelo para poder seguir usando las funciones del APP.</string>
+    <string name="alert_gps_disabled">La ubicación del gps esta deshabilitada, habilitelo para que se pueda mostrar los datos.</string>
+    <string name="alert_wifi_disconect_msg">Conectese a una red Wifi para poder visualizar la información</string>
+    <string name="alert_btn_cancel">Cerrar</string>
+    <string name="alert_btn_closet_app">Cerrar aplicación</string>
+    <string name="alert_btn_positive">Aceptar</string>
+    <string name="label_wifi_disconect">Conectese a una red Wifi</string>
+    <string name="label_wifi_disable">El wifi esta deshabilitado</string>
+
+    <string name="toast_permisos">Permisos aceptados</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
